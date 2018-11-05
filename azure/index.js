@@ -2,6 +2,7 @@ var request = require("request");
 
 module.exports = function(context, req) {
     
+        context.log('..');
         context.log('starting..');
         let auth = "Bearer " + req.body.apikey;
         
